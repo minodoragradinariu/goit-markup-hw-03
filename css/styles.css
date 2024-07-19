@@ -176,7 +176,7 @@ padding: 120px 0;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 .third-section-list{
     display: flex;
@@ -233,13 +233,15 @@ padding: 120px 0;
     margin-bottom: 8px;
     width: calc((100%-48px)/3);
 }
+.fourth-section-item{
+    width: calc((100%-48px)/3);
+}
 .fourth-section-item-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-    width: calc((100%-48px)/3);
+    color: #2e2f42 ;
     margin-bottom: 8px;
 }
 .fourth-section-paragraph{
@@ -250,8 +252,7 @@ padding: 120px 0;
 }
 .footer{
     background-color: #2e2f42;
-    padding: 100px 0;
-    display: inline-block;
+    padding: 100px 0 ;
     margin-bottom: 16px ;
 }
 .logo-footer{
@@ -263,6 +264,7 @@ padding: 120px 0;
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
+    display: inline-block;
 }
 .span-footer{
     color: #f4f4fd ;
