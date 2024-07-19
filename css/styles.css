@@ -71,6 +71,7 @@ body{
 .header-item{
     padding: 24px 0;
 }
+
 .header-link:hover {
     color: #404bbf;
     }
@@ -195,7 +196,7 @@ padding: 120px 0;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
-    margin-bottom: 9px;
+    margin-bottom: 8px;
 }
 .third-section-item-paragraph{
     font-size: 16px;
@@ -232,8 +233,9 @@ padding: 120px 0;
     width: calc((100%-48px)/3);
 }
 .fourth-section-item{
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px) / 3);
 }
+
 .fourth-section-item-title{
     font-weight: 500;
     font-size: 20px;
@@ -252,6 +254,7 @@ padding: 120px 0;
     background-color: #2e2f42;
     padding: 100px 0 ;
     margin-bottom: 16px ;
+    display: inline-block;
 }
 .logo-footer{
     font-family: "Raleway", sans-serif;
