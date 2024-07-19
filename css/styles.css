@@ -2,7 +2,43 @@
     font-family: "Roboto", sans-serif;
     src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 }
+ul {
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    /* margin: 0;
+    padding: 0; */
+    list-style-type: none;
+  }
+  h1,
+  h2,
+  h3,
+  p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    /* margin: 0; */
+  }
+  a {
+    text-decoration: none;
+    font-style: normal;
+  }
 
+.header-main{
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container{
+    display: flex;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0.15px;
+
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+}
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -17,17 +53,23 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-
+    margin-right: 76px;
 }
 .span-logo{
     color: #2e2f42;
+}
+.header-list{
+    display: flex;
+    gap: 40px;
 }
 .header-link {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-
+    color: #2e2f42 ;
+}
+.header-item{
+    padding: 24px 0;
 }
 .header-link:hover {
     color: #404bbf;
@@ -44,6 +86,10 @@ color: #404bbf;
 .address {
 font-style: normal;
 }
+.address-list{
+    display: flex;
+    gap: 40px;
+}
 .address-link{
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -57,7 +103,7 @@ font-style: normal;
 }
 .first-section {
 background-color: #2e2f42;
-
+padding: 188px 0;
 }
 .first-section-title {
 font-size: 56px;
@@ -166,23 +212,3 @@ background-color: #f4f4fd;
     color: #f4f4fd;
     letter-spacing: 0.02em;
 }
-ul {
-    padding-inline-start: 0;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    /* margin: 0;
-    padding: 0; */
-    list-style-type: none;
-  }
-  h1,
-  h2,
-  h3,
-  p {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    /* margin: 0; */
-  }
-  a {
-    text-decoration: none;
-    font-style: normal;
-  }
