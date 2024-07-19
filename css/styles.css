@@ -276,7 +276,7 @@ body {
     row-gap: 48px;
 
 }
-.fourth-section-item {
+.fourth-section-item-list {
     width: calc((100% - 72px) / 4);
 }
 
