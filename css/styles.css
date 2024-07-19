@@ -145,6 +145,7 @@ max-width: 496px;
 .second-list-item{
     width: calc(100%-72px);
 }
+
 .second-section-title {
     margin-bottom: 8px;
     font-weight: 500;
