@@ -22,6 +22,9 @@ ul {
     text-decoration: none;
     font-style: normal;
   }
+  img {
+    display: block;
+  }
 
 .header-main{
     border-bottom: 1px solid #e7e9fc;
