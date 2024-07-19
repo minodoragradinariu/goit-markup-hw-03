@@ -227,7 +227,7 @@ padding: 120px 0;
 
 }
 .fourth-section-item{
-    
+
     width: calc((100% - 48px) / 3);;
 }
 .aplicatie-categorie{
@@ -253,7 +253,8 @@ padding: 120px 0;
 .footer{
     background-color: #2e2f42;
     padding: 100px 0 ;
-    display: inline-block; 
+    display: inline-block;
+
     margin-bottom: 16px ;
     
 }
@@ -266,6 +267,7 @@ padding: 120px 0;
     text-transform: uppercase;
     color: #4d5ae5;
     margin-bottom: 16px;
+    display: inline-block;
 }
 .span-footer{
     color: #f4f4fd ;
