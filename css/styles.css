@@ -156,7 +156,7 @@ max-width: 496px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    
+    visibility: hidden;
 }
 .second-section-paragraph {
     font-size: 16px;
